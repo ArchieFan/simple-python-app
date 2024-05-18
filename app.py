@@ -7,4 +7,4 @@ def hello():
     return 'Hello, world! This is CICD pipeline in AWS'
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=5000)
